@@ -129,7 +129,7 @@ jobs:
           enable-cache: true
           version: "0.9.5"
           cache-dependency-glob: "requirements**.txt"
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Setup node
         uses: actions/setup-node@v6
