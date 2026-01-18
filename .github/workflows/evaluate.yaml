@@ -174,7 +174,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv pip install -r requirements-dev.txt
+          uv pip install -r requirements-dev.txt --system
 
       - name: Run local server in background
         run: |
