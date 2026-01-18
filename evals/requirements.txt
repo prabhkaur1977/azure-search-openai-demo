@@ -1,5 +1,44 @@
-azure-identity
-dotenv-azd==0.3.0
+azure-ai-documentintelligence==1.0.2
+    # via -r requirements.in
+azure-cognitiveservices-speech==1.40.0
+    # via -r requirements.in
+azure-common==1.1.28
+    # via azure-search-documents
+azure-core==1.35.0
+    # via
+    #   azure-ai-documentintelligence
+    #   azure-core-tracing-opentelemetry
+    #   azure-cosmos
+    #   azure-identity
+    #   azure-monitor-opentelemetry
+    #   azure-monitor-opentelemetry-exporter
+    #   azure-search-documents
+    #   azure-storage-blob
+    #   azure-storage-file-datalake
+    #   microsoft-kiota-authentication-azure
+    #   msrest
+azure-core-tracing-opentelemetry==1.0.0b11
+    # via azure-monitor-opentelemetry
+azure-cosmos==4.9.0
+    # via -r requirements.in
+azure-functions==1.24.0
+    # via -r requirements.in
+azure-identity==1.17.1
+    # via
+    #   -r requirements.in
+    #   azure-monitor-opentelemetry-exporter
+    #   msgraph-sdk
+azure-monitor-opentelemetry==1.8.1
+    # via -r requirements.in
+azure-monitor-opentelemetry-exporter==1.0.0b44
+    # via azure-monitor-opentelemetry
+azure-search-documents==11.7.0b2
+    # via -r requirements.in
+azure-storage-blob==12.22.0
+    # via
+    #   -r requirements.in
+    #   azure-storage-file-datalake
+azure-storage-file-datalake==12.16.0dotenv-azd==0.3.0
 rich
 ragas==0.2.13
 rapidfuzz==3.14.3
